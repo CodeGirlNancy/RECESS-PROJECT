@@ -1,0 +1,48 @@
+{
+  "name": "rhinos-rugby-football-club",
+  "version": "1.0.0",
+  "description": "cvls",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "start-app": "react-scripts start",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adokorac Nancy and Nanteza Dorcus",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeGirlNancy/RECESS-PROJECT.git"
+  },
+  "keywords": [
+    "rugby",
+    "sports"
+  ],
+  "bugs": {
+    "url": "https://github.com/CodeGirlNancy/RECESS-PROJECT/issues"
+  },
+  "homepage": "https://github.com/CodeGirlNancy/RECESS-PROJECT#readme",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
+    "axios": "^1.7.2",
+    "babel-preset-react-app": "^10.0.1",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
