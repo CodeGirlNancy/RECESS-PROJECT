@@ -10,10 +10,10 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
 
-  const apiKey = 'sk-proj-6d0mkCOAK9MYIc5c6HH4T3BlbkFJST9ghchF3xjWZrGNIepG'; // Replace with your full OpenAI API key
+  const apiKey = 'MY API KEY'; // Replace with your full OpenAI API key
 
   const getBotResponse = async (userInput) => {
-    const url = 'https://api.openai.com/v1/engines/gpt-3.5-turbo/completions'; // Use the gpt-3.5-turbo model
+    const url = 'MY API KEY'; // Use the gpt-3.5-turbo model
 
     const response = await axios.post(
       url,
