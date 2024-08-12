@@ -10,7 +10,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
 
-  const apiKey = 'MY API KEY'; // Replace with your full OpenAI API key
+  
 
   const getBotResponse = async (userInput) => {
     const url = 'MY API KEY'; // Use the gpt-3.5-turbo model
